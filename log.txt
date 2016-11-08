@@ -1,0 +1,141 @@
+2016-11-08 13:56:29,772 root  INFO     Script being executed: scripts/preprocessing/preprocess_images.py
+2016-11-08 13:56:29,778 root  INFO     Creating pool with 4 threads
+2016-11-08 13:56:29,782 root  INFO     Jobs running...
+2016-11-08 13:56:32,916 root  INFO     data/sample/images/1f6cbf77e4.png is blank, crop a white image of default size!
+2016-11-08 13:56:36,636 root  INFO     data/sample/images/f0bf0dc25d.png is blank, crop a white image of default size!
+2016-11-08 13:56:43,639 root  INFO     Jobs finished
+2016-11-08 13:56:45,614 root  INFO     Script being executed: scripts/preprocessing/preprocess_formulas.py
+2016-11-08 13:56:45,624 root  ERROR    FAILED: cat data/sample/formulas.norm.lst.tmp | node scripts/preprocessing/preprocess_latex.js normalize > data/sample/formulas.norm.lst 
+2016-11-08 13:56:45,625 root  INFO     Jobs finished
+2016-11-08 14:17:58,992 root  INFO     Script being executed: scripts/preprocessing/preprocess_formulas.py
+2016-11-08 14:17:59,001 root  ERROR    FAILED: cat data/sample/formulas.norm.lst.tmp | node scripts/preprocessing/preprocess_latex.js normalize > data/sample/formulas.norm.lst 
+2016-11-08 14:17:59,002 root  INFO     Jobs finished
+2016-11-08 14:29:25,728 root  INFO     Script being executed: scripts/preprocessing/preprocess_formulas.py
+2016-11-08 14:29:26,446 root  INFO     Jobs finished
+2016-11-08 14:43:01,213 root  INFO     Script being executed: scripts/preprocessing/preprocess_filter.py
+2016-11-08 14:43:01,222 root  INFO     227301e73d.png discarded due to large image size!
+2016-11-08 14:43:01,225 root  INFO     5d034b6bfa.png discarded due to large image size!
+2016-11-08 14:43:01,226 root  INFO     5ea7b85bb6.png discarded due to large image size!
+2016-11-08 14:43:01,229 root  INFO     46af5924d4.png discarded due to too many tokens!
+2016-11-08 14:43:01,230 root  INFO     2abcf2603a.png discarded due to large image size!
+2016-11-08 14:43:01,230 root  INFO     483b857887.png discarded due to large image size!
+2016-11-08 14:43:01,231 root  INFO     7073582f6e.png discarded due to large image size!
+2016-11-08 14:43:01,232 root  INFO     3b0a69fdcc.png discarded due to large image size!
+2016-11-08 14:43:01,233 root  INFO     5d9355c58d.png discarded due to large image size!
+2016-11-08 14:43:01,233 root  INFO     293efbf748.png discarded due to large image size!
+2016-11-08 14:43:01,234 root  INFO     3dbad31094.png discarded due to large image size!
+2016-11-08 14:43:01,234 root  INFO     60b9bcd373.png discarded due to too many tokens!
+2016-11-08 14:43:01,235 root  INFO     31afdc1831.png discarded due to large image size!
+2016-11-08 14:43:01,235 root  INFO     1ac344edfb.png discarded due to too many tokens!
+2016-11-08 14:43:01,236 root  INFO     71075b78c8.png discarded due to large image size!
+2016-11-08 14:43:01,236 root  INFO     1e743773df.png discarded due to large image size!
+2016-11-08 14:43:01,237 root  INFO     1654a3bc38.png discarded due to large image size!
+2016-11-08 14:43:01,238 root  INFO     1f6cbf77e4.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,238 root  INFO     30348cea1a.png discarded due to large image size!
+2016-11-08 14:43:01,238 root  INFO     69dd0b398d.png discarded due to large image size!
+2016-11-08 14:43:01,240 root  INFO     4ec40afb85.png discarded due to too many tokens!
+2016-11-08 14:43:01,240 root  INFO     29a6048204.png discarded due to large image size!
+2016-11-08 14:43:01,241 root  INFO     4890fec461.png discarded due to large image size!
+2016-11-08 14:43:01,243 root  INFO     39d44702c3.png discarded due to large image size!
+2016-11-08 14:43:01,245 root  INFO     71aea8e1bc.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,245 root  INFO     4c5c28ef84.png discarded due to large image size!
+2016-11-08 14:43:01,246 root  INFO     4124513a65.png discarded due to large image size!
+2016-11-08 14:43:01,247 root  INFO     53c34a57b8.png discarded due to too many tokens!
+2016-11-08 14:43:01,247 root  INFO     1355c92f46.png discarded due to too many tokens!
+2016-11-08 14:43:01,248 root  INFO     52937e86da.png discarded due to large image size!
+2016-11-08 14:43:01,248 root  INFO     2792f30346.png discarded due to too many tokens!
+2016-11-08 14:43:01,250 root  INFO     32e8a04390.png discarded due to large image size!
+2016-11-08 14:43:01,251 root  INFO     5c8ae6694c.png discarded due to large image size!
+2016-11-08 14:43:01,252 root  INFO     3e004aa348.png discarded due to large image size!
+2016-11-08 14:43:01,252 root  INFO     558b0786f3.png discarded due to large image size!
+2016-11-08 14:43:01,253 root  INFO     1bca8b366d.png discarded due to too many tokens!
+2016-11-08 14:43:01,255 root  INFO     8c28a1b637.png discarded due to too many tokens!
+2016-11-08 14:43:01,256 root  INFO     4e0bd0dc7a.png discarded due to too many tokens!
+2016-11-08 14:43:01,256 root  INFO     1cfcbaafde.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,257 root  INFO     5879db4f67.png discarded due to large image size!
+2016-11-08 14:43:01,257 root  INFO     5fb34cdbf1.png discarded due to too many tokens!
+2016-11-08 14:43:01,258 root  INFO     3802201b6a.png discarded due to large image size!
+2016-11-08 14:43:01,258 root  INFO     65b498fa32.png discarded due to too many tokens!
+2016-11-08 14:43:01,259 root  INFO     f0bf0dc25d.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,259 root  INFO     16ae1958c7.png discarded due to large image size!
+2016-11-08 14:43:01,260 root  INFO     6bdf71479b.png discarded due to too many tokens!
+2016-11-08 14:43:01,260 root  INFO     6b8d332140.png discarded due to too many tokens!
+2016-11-08 14:43:01,260 root  INFO     25489864cf.png discarded due to large image size!
+2016-11-08 14:43:01,262 root  INFO     670055f412.png discarded due to large image size!
+2016-11-08 14:43:01,264 root  INFO     260afae4fe.png discarded due to large image size!
+2016-11-08 14:43:01,266 root  INFO     143e9de6ce.png discarded due to too many tokens!
+2016-11-08 14:43:01,266 root  INFO     545d59c30d.png discarded due to too many tokens!
+2016-11-08 14:43:01,267 root  INFO     5f0c7b223f.png discarded due to large image size!
+2016-11-08 14:43:01,267 root  INFO     1a9e2f3773.png discarded due to large image size!
+2016-11-08 14:43:01,268 root  INFO     326bbc768a.png discarded due to large image size!
+2016-11-08 14:43:01,268 root  INFO     7381b6365f.png discarded due to large image size!
+2016-11-08 14:43:01,269 root  INFO     47e926d309.png discarded due to large image size!
+2016-11-08 14:43:01,272 root  INFO     5ef50930fb.png discarded due to large image size!
+2016-11-08 14:43:01,272 root  INFO     4eb2532773.png discarded due to large image size!
+2016-11-08 14:43:01,272 root  INFO     33242c3d7c.png discarded due to large image size!
+2016-11-08 14:43:01,273 root  INFO     15955bf916.png discarded due to large image size!
+2016-11-08 14:43:01,274 root  INFO     6b0eadf8f1.png discarded due to large image size!
+2016-11-08 14:43:01,274 root  INFO     47d3e4314d.png discarded due to large image size!
+2016-11-08 14:43:01,274 root  INFO     1d01328b47.png discarded due to large image size!
+2016-11-08 14:43:01,275 root  INFO     5bb8230f19.png discarded due to large image size!
+2016-11-08 14:43:01,276 root  INFO     4d35011ed8.png discarded due to large image size!
+2016-11-08 14:43:01,276 root  INFO     56ee7efdb2.png discarded due to large image size!
+2016-11-08 14:43:01,277 root  INFO     36281bf44e.png discarded due to large image size!
+2016-11-08 14:43:01,278 root  INFO     2faa283e4d.png discarded due to too many tokens!
+2016-11-08 14:43:01,278 root  INFO     1177fc20f5.png discarded due to large image size!
+2016-11-08 14:43:01,279 root  INFO     61341ffaa4.png discarded due to large image size!
+2016-11-08 14:43:01,279 root  INFO     616dea6dcf.png discarded due to large image size!
+2016-11-08 14:43:01,279 root  INFO     5c6fc762d7.png discarded due to too many tokens!
+2016-11-08 14:43:01,280 root  INFO     3486b275f3.png discarded due to large image size!
+2016-11-08 14:43:01,281 root  INFO     6cd8d3671c.png discarded due to large image size!
+2016-11-08 14:43:01,281 root  INFO     66770eb479.png discarded due to large image size!
+2016-11-08 14:43:01,282 root  INFO     1a1372416e.png discarded due to large image size!
+2016-11-08 14:43:01,282 root  INFO     906c7dd88a.png discarded due to large image size!
+2016-11-08 14:43:01,285 root  INFO     3ca0f9f7e3.png discarded due to large image size!
+2016-11-08 14:43:01,285 root  INFO     2a7b3479a9.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,286 root  INFO     642bba8c0b.png discarded due to large image size!
+2016-11-08 14:43:01,286 root  INFO     3b2e373278.png discarded due to large image size!
+2016-11-08 14:43:01,287 root  INFO     6f43b038b5.png discarded due to too many tokens!
+2016-11-08 14:43:01,287 root  INFO     7036f64404.png discarded due to large image size!
+2016-11-08 14:43:01,288 root  INFO     60542701de.png discarded due to too many tokens!
+2016-11-08 14:43:01,289 root  INFO     662ebd87ae.png discarded due to large image size!
+2016-11-08 14:43:01,290 root  INFO     94e4c12f0e.png discarded due to large image size!
+2016-11-08 14:43:01,292 root  INFO     755d3d555e.png discarded due to large image size!
+2016-11-08 14:43:01,293 root  INFO     4dbe530664.png discarded due to large image size!
+2016-11-08 14:43:01,294 root  INFO     467daeac28.png discarded due to large image size!
+2016-11-08 14:43:01,295 root  INFO     cb5cd48c38.png discarded due to large image size!
+2016-11-08 14:43:01,296 root  INFO     29ccf58bd1.png discarded due to large image size!
+2016-11-08 14:43:01,296 root  INFO     6661013ddc.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,296 root  INFO     7e47f7ada2.png discarded due to too many tokens!
+2016-11-08 14:43:01,297 root  INFO     248df5161d.png discarded due to large image size!
+2016-11-08 14:43:01,297 root  INFO     69971d8d8b.png discarded due to large image size!
+2016-11-08 14:43:01,300 root  INFO     19b1816d8c.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:01,301 root  INFO     4a2bd4f25b.png discarded due to large image size!
+2016-11-08 14:43:01,301 root  INFO     21d9f45666.png discarded due to large image size!
+2016-11-08 14:43:01,303 root  INFO     5ac75c5cfb.png discarded due to large image size!
+2016-11-08 14:43:01,304 root  INFO     71a8ec2a7c.png discarded due to large image size!
+2016-11-08 14:43:01,305 root  INFO     73 discarded. 0 not found in data/sample/images_processed.
+2016-11-08 14:43:01,305 root  INFO     Jobs finished
+2016-11-08 14:43:18,818 root  INFO     Script being executed: scripts/preprocessing/preprocess_filter.py
+2016-11-08 14:43:18,826 root  INFO     6e69ea63c3.png discarded due to too many tokens!
+2016-11-08 14:43:18,827 root  INFO     71b1268d61.png discarded due to large image size!
+2016-11-08 14:43:18,827 root  INFO     23cc1f9ade.png discarded due to large image size!
+2016-11-08 14:43:18,828 root  INFO     605891bccb.png discarded due to large image size!
+2016-11-08 14:43:18,828 root  INFO     60f09f28a9.png discarded due to large image size!
+2016-11-08 14:43:18,829 root  INFO     114f21eeed.png discarded due to too many tokens!
+2016-11-08 14:43:18,829 root  INFO     5717e23660.png discarded due to large image size!
+2016-11-08 14:43:18,830 root  INFO     da6789d139.png discarded due to large image size!
+2016-11-08 14:43:18,831 root  INFO     147dd662c6.png discarded due to cannot-be-parsed formula!
+2016-11-08 14:43:18,832 root  INFO     65d96cbae3.png discarded due to too many tokens!
+2016-11-08 14:43:18,832 root  INFO     50fd0c8894.png discarded due to large image size!
+2016-11-08 14:43:18,833 root  INFO     419202438c.png discarded due to large image size!
+2016-11-08 14:43:18,834 root  INFO     678faa7255.png discarded due to large image size!
+2016-11-08 14:43:18,834 root  INFO     1e74a275a2.png discarded due to large image size!
+2016-11-08 14:43:18,835 root  INFO     10 discarded. 0 not found in data/sample/images_processed.
+2016-11-08 14:43:18,835 root  INFO     Jobs finished
+2016-11-08 14:43:26,054 root  INFO     Script being executed: scripts/preprocessing/preprocess_filter.py
+2016-11-08 14:43:26,055 root  INFO     0 discarded. 0 not found in data/sample/images_processed.
+2016-11-08 14:43:26,055 root  INFO     Jobs finished
+2016-11-08 14:44:05,002 root  INFO     Script being executed: scripts/preprocessing/generate_latex_vocab.py
+2016-11-08 14:44:05,014 root  INFO     #UNK's: 27
+2016-11-08 14:44:05,014 root  INFO     Jobs finished

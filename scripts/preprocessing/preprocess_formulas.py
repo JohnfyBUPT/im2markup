@@ -64,7 +64,7 @@ def main(args):
         fout.write(open(output_file).read().replace('\r', ' ')) # delete \r
     #shutil.copy(output_file, temp_file)
 
-    cmd = "cat %s | node scripts/preprocessing/preprocess_latex.js %s > %s "%(temp_file, parameters.mode, output_file)
+    cmd = "cat %s | nodejs scripts/preprocessing/preprocess_latex.js %s > %s "%(temp_file, parameters.mode, output_file)
     ret = subprocess.call(cmd, shell=True)
     os.remove(temp_file)
     if ret != 0:
