@@ -3,7 +3,7 @@ var app = express();
 //var app = connect().use(connect.static('public')).listen(3000, "0.0.0.0");
 var fs = require("fs");
 
-const testFolder = '../data/sample/images_rendered/images_gold/';
+const testFolder = '../data/test/images_rendered/images_gold/';
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");

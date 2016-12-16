@@ -29,6 +29,8 @@
     var image_urls = [];
     var cur_image = 0;
     var image_server = "http://172.31.204.72:8081/images";
+    var gold_path = "../data/test/images_rendered/images_gold/"
+    var pred_path = "../data/test/images_rendered/images_pred/"
     $(document).ready(function(){
         $("button#getImageUrls").click(function(){
             $.get(image_server, function(data,status){
@@ -38,8 +40,8 @@
                     console.log(jsonData[i]);          	
                     image_urls.push(jsonData[i]);
                 }
-                document.getElementById('image_gold').src = "../data/sample/images_rendered/images_gold/" + image_urls[cur_image];
-                document.getElementById('image_pred').src = "../data/sample/images_rendered/images_pred/" + image_urls[cur_image];
+                document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
+                document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
             });
         });
         $("button#nextImage").click(function(){
@@ -47,16 +49,16 @@
             if(cur_image >= image_urls.length){
                 cur_image = 0;
             }
-            document.getElementById('image_gold').src = "../data/sample/images_rendered/images_gold/" + image_urls[cur_image];
-            document.getElementById('image_pred').src = "../data/sample/images_rendered/images_pred/" + image_urls[cur_image];
+            document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
+            document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
         })
         $("button#lastImage").click(function(){
             cur_image = cur_image - 1;
             if(cur_image < 0){
                 cur_image = image_urls.length - 1;
             }
-            document.getElementById('image_gold').src = "../data/sample/images_rendered/images_gold/" + image_urls[cur_image];
-            document.getElementById('image_pred').src = "../data/sample/images_rendered/images_pred/" + image_urls[cur_image];
+            document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
+            document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
         })
     });
     

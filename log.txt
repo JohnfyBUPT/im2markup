@@ -1,68 +1,35 @@
-[12/06/16 15:06:45]  Command Line Arguments:
-[12/06/16 15:06:45]  -phase test -gpu_id 1 -load_model -model_dir model/latex -visualize -data_base_dir data/sample/images_processed/ -data_path data/sample/test_filter.lst -label_path data/sample/formulas.norm.lst -output_dir results -max_num_tokens 500 -max_image_width 800 -max_image_height 800 -batch_size 5 -beam_size 5
-[12/06/16 15:06:45]  End Command Line Arguments
-[12/06/16 15:06:45]  Using CUDA on GPU 1
-[12/06/16 15:06:45]  Building model
-[12/06/16 15:06:45]  Loading model from /home/fengyangzhang/im2markup/model/latex/final-model
-[12/06/16 15:06:45]  Switching on memory preallocation
-[12/06/16 15:06:45]  cnn_featuer_size: 512
-[12/06/16 15:06:45]  dropout: 0.000000
-[12/06/16 15:06:45]  encoder_num_hidden: 256
-[12/06/16 15:06:45]  encoder_num_layers: 1
-[12/06/16 15:06:45]  decoder_num_hidden: 512
-[12/06/16 15:06:45]  decoder_num_layers: 1
-[12/06/16 15:06:45]  target_vocab_size: 525
-[12/06/16 15:06:45]  target_embedding_size: 80
-[12/06/16 15:06:45]  max_encoder_l_w: 100
-[12/06/16 15:06:45]  max_encoder_l_h: 100
-[12/06/16 15:06:45]  max_decoder_l: 501
-[12/06/16 15:06:45]  input_feed: true
-[12/06/16 15:06:45]  batch_size: 5
-[12/06/16 15:06:45]  prealloc: true
-[12/06/16 15:06:46]  Number of parameters: 9483037
-[12/06/16 15:07:30]  Data base dir data/sample/images_processed/
-[12/06/16 15:07:30]  Load training data from data/sample/test_filter.lst
-[12/06/16 15:07:30]  Training data loaded from data/sample/test_filter.lst
-[12/06/16 15:07:30]  Lr: 0.025000
-[12/06/16 15:07:35]  1.073150
-[12/06/16 15:07:38]  1.081790
-[12/06/16 15:07:43]  1.060049
-[12/06/16 15:07:47]  1.146325
-[12/06/16 15:07:51]  1.154888
-[12/06/16 15:07:55]  1.068756
-[12/06/16 15:08:01]  1.128116
-[12/06/16 15:08:05]  1.149072
-[12/06/16 15:08:11]  1.081375
-[12/06/16 15:08:14]  1.040981
-[12/06/16 15:08:18]  1.416253
-[12/06/16 15:08:21]  1.045111
-[12/06/16 15:08:27]  1.040948
-[12/06/16 15:08:30]  1.033959
-[12/06/16 15:08:34]  1.097947
-[12/06/16 15:08:37]  1.015994
-[12/06/16 15:08:41]  1.430220
-[12/06/16 15:08:47]  1.040384
-[12/06/16 15:08:50]  1.002456
-[12/06/16 15:08:54]  1.399941
-[12/06/16 15:08:57]  1.012195
-[12/06/16 15:09:01]  1.043439
-[12/06/16 15:09:04]  1.025918
-[12/06/16 15:09:07]  1.032786
-[12/06/16 15:09:11]  1.227310
-[12/06/16 15:09:18]  1.017658
-[12/06/16 15:09:21]  1.104367
-[12/06/16 15:09:25]  1.193816
-[12/06/16 15:09:28]  1.116914
-[12/06/16 15:09:30]  Epoch: 1 Number of samples 100 - Accuracy = 0.924159 Perp = 1.123426
-2016-12-06 15:10:39,414 root  INFO     Script being executed: scripts/evaluation/render_latex.py
-2016-12-06 15:10:39,415 root  INFO     Creating pool with 4 threads
-2016-12-06 15:10:39,416 root  INFO     Jobs running...
-2016-12-06 15:11:18,661 root  INFO     ERROR: 25c3276f55.png cannot compile
-
-2016-12-06 15:11:32,308 root  INFO     Jobs finished
-2016-12-06 15:31:14,840 root  INFO     Script being executed: scripts/evaluation/render_latex.py
-2016-12-06 15:31:14,841 root  INFO     Creating pool with 4 threads
-2016-12-06 15:31:14,843 root  INFO     Jobs running...
-2016-12-06 15:31:53,522 root  INFO     ERROR: 25c3276f55.png cannot compile
-
-2016-12-06 15:32:06,841 root  INFO     Jobs finished
+[12/16/16 19:54:05]  Command Line Arguments:
+[12/16/16 19:54:05]  -phase test -gpu_id 1 -load_model -model_dir model/latex -visualize -data_base_dir data/test/images_processed/ -data_path data/test/test_filter.lst -label_path data/sample/formulas.norm.lst -output_dir results -max_num_tokens 500 -max_image_width 800 -max_image_height 800 -batch_size 5 -beam_size 5
+[12/16/16 19:54:05]  End Command Line Arguments
+[12/16/16 19:54:05]  Using CUDA on GPU 1
+[12/16/16 19:54:05]  Building model
+[12/16/16 19:54:05]  Loading model from /home/fengyangzhang/im2markup/model/latex/final-model
+[12/16/16 19:54:05]  Switching on memory preallocation
+[12/16/16 19:54:06]  cnn_featuer_size: 512
+[12/16/16 19:54:06]  dropout: 0.000000
+[12/16/16 19:54:06]  encoder_num_hidden: 256
+[12/16/16 19:54:06]  encoder_num_layers: 1
+[12/16/16 19:54:06]  decoder_num_hidden: 512
+[12/16/16 19:54:06]  decoder_num_layers: 1
+[12/16/16 19:54:06]  target_vocab_size: 525
+[12/16/16 19:54:06]  target_embedding_size: 80
+[12/16/16 19:54:06]  max_encoder_l_w: 100
+[12/16/16 19:54:06]  max_encoder_l_h: 100
+[12/16/16 19:54:06]  max_decoder_l: 501
+[12/16/16 19:54:06]  input_feed: true
+[12/16/16 19:54:06]  batch_size: 5
+[12/16/16 19:54:06]  prealloc: true
+[12/16/16 19:54:06]  Number of parameters: 9483037
+[12/16/16 19:54:54]  Data base dir data/test/images_processed/
+[12/16/16 19:54:54]  Load training data from data/test/test_filter.lst
+[12/16/16 19:54:54]  Training data loaded from data/test/test_filter.lst
+[12/16/16 19:54:54]  Lr: 0.025000
+[12/16/16 19:54:58]  418.106942
+[12/16/16 19:55:02]  151.722563
+[12/16/16 19:55:06]  110.214305
+[12/16/16 19:55:10]  84.840146
+[12/16/16 19:55:12]  Epoch: 1 Number of samples 4 - Accuracy = 0.136072 Perp = 146.532065
+2016-12-16 19:56:45,045 root  INFO     Script being executed: scripts/evaluation/render_latex.py
+2016-12-16 19:56:45,046 root  INFO     Creating pool with 4 threads
+2016-12-16 19:56:45,047 root  INFO     Jobs running...
+2016-12-16 19:56:47,152 root  INFO     Jobs finished
