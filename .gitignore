@@ -1,4 +1,5 @@
-# Byte-compiled / optimized / DLL files
+
+.idea/# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -88,8 +89,12 @@ ENV/
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 # Models
 model/
 
 #results
 results/
+=======
+.idea/
+data/sample/images_processed/Thumbs.db
