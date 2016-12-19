@@ -32,3 +32,13 @@
 2016-12-16 20:22:12,169 root  INFO     Creating pool with 4 threads
 2016-12-16 20:22:12,170 root  INFO     Jobs running...
 2016-12-16 20:22:12,270 root  INFO     Jobs finished
+2016-12-19 15:43:11,789 root  INFO     Script being executed: scripts/preprocessing/preprocess_images.py
+2016-12-19 15:43:11,789 root  INFO     Creating pool with 4 threads
+2016-12-19 15:43:11,821 root  INFO     Jobs running...
+2016-12-19 15:43:12,596 root  INFO     data/sample/images\1f6cbf77e4.png is blank, crop a white image of default size!
+2016-12-19 15:43:40,213 root  INFO     data/sample/images\f0bf0dc25d.png is blank, crop a white image of default size!
+2016-12-19 15:43:41,021 root  INFO     Jobs finished
+2016-12-19 15:43:46,373 root  INFO     Script being executed: scripts/preprocessing/preprocess_images.py
+2016-12-19 15:43:46,373 root  INFO     Creating pool with 4 threads
+2016-12-19 15:43:46,395 root  INFO     Jobs running...
+2016-12-19 15:43:46,496 root  INFO     Jobs finished
