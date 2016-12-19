@@ -42,8 +42,8 @@ function DataGen:__init(data_base_dir, data_path, label_path, max_aspect_ratio, 
     local idx = 0
     for line in file:lines() do
         idx = idx + 1
-        if idx % 1000000==0 then
-            log (string.format('%d lines read', idx))
+        if idx % 100==0 then
+            log (string.format('%d lines in list read', idx))
         end
         local filename, label = unpack(split(line))
         self.lines[idx] = tds.Vec({filename, label})

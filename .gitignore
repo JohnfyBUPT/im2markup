@@ -97,4 +97,5 @@ model/
 results/
 =======
 .idea/
-data/sample/images_processed/Thumbs.db
+Thumbs.db
+log.txt

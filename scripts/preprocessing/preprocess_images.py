@@ -50,15 +50,18 @@ def process_args(args):
     parameters = parser.parse_args(args)
     return parameters
 
-def main_parallel(l):
-    filename, postfix, output_filename, crop_blank_default_size, pad_size, buckets, downsample_ratio = l
+def main_parallel(pars):
+    filename, postfix, output_filename, crop_blank_default_size, pad_size, buckets, downsample_ratio = pars
     postfix_length = len(postfix)
+    # this will crop all the surrounding white pixels of the image
     status = crop_image(filename, output_filename, crop_blank_default_size)
     if not status:
         logging.info('%s is blank, crop a white image of default size!'%filename)
+    # pad the image to match a size in the buckets
     status = pad_group_image(output_filename, output_filename, pad_size, buckets)
     if not status:
         logging.info('%s (after cropping and padding) is larger than the largest provided bucket size, left unchanged!'%filename)
+    # downsample to make the image a half clear than before
     status = downsample_image(output_filename, output_filename, downsample_ratio)
 
 def main(args):
