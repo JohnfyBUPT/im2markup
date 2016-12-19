@@ -14,6 +14,7 @@
 </div>
 <br/>
 <div align="center">
+    <p id="image_name">NAME_IMAGE</p>
     <h1>The ground-truth image</h1>
     <br/>
     <img src="" id="image_gold"/>
@@ -42,6 +43,7 @@
                 }
                 document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
                 document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
+                document.getElementById('image_name').innerHTML = image_urls[cur_image];
             });
         });
         $("button#nextImage").click(function(){
@@ -51,6 +53,7 @@
             }
             document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
             document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
+            document.getElementById('image_name').innerHTML = image_urls[cur_image];
         })
         $("button#lastImage").click(function(){
             cur_image = cur_image - 1;
@@ -59,6 +62,7 @@
             }
             document.getElementById('image_gold').src = gold_path + image_urls[cur_image];
             document.getElementById('image_pred').src = pred_path + image_urls[cur_image];
+            document.getElementById('image_name').innerHTML = image_urls[cur_image];
         })
     });
     
